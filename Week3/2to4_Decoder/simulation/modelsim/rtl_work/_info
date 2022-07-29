@@ -1,0 +1,568 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/EE214_Experiments/Week3/2to4_Decoder/simulation/modelsim
+Eand_2
+Z1 w1628673676
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8E:/EE214_Experiments/Week3/2to4_Decoder/Gates.vhd
+Z5 FE:/EE214_Experiments/Week3/2to4_Decoder/Gates.vhd
+l0
+L61 1
+VhNc4o@4iWJ5J]^KE3l>Sg2
+!s100 FVPgla4Lk4NdUm:Oj9;m<2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1628675130
+!i10b 1
+Z8 !s108 1628675129.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/EE214_Experiments/Week3/2to4_Decoder/Gates.vhd|
+Z10 !s107 E:/EE214_Experiments/Week3/2to4_Decoder/Gates.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 hNc4o@4iWJ5J]^KE3l>Sg2
+!i122 0
+l66
+L65 4
+V11ZJFzFOkM[^BUcJhHokb3
+!s100 jXIFgll?X3>1kO;@C5UlN2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_3
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L152 1
+Vk1@RbW@A>OZ`zQ_P7e[fO0
+!s100 `H[KC1Y;>^YEOU>62Z`B^2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 and_3 0 22 k1@RbW@A>OZ`zQ_P7e[fO0
+!i122 0
+l157
+L156 4
+V=aIml;6j_3ETbEjd8fko41
+!s100 1mGCPaY>A<ZF]WR?j8Xfj2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edecoder_2to4
+Z13 w1628674346
+Z14 DPx4 work 5 gates 0 22 ^`cPQ[P^XeGBQnJ5d;gQ43
+R2
+R3
+!i122 2
+R0
+Z15 8E:/EE214_Experiments/Week3/2to4_Decoder/Decoder_2to4.vhd
+Z16 FE:/EE214_Experiments/Week3/2to4_Decoder/Decoder_2to4.vhd
+l0
+L8 1
+VX;3l<@^DTYi:f;<[JL:=F3
+!s100 [@fIF7BCcPP`68RLK_=NE2
+R6
+31
+R7
+!i10b 1
+Z17 !s108 1628675130.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/EE214_Experiments/Week3/2to4_Decoder/Decoder_2to4.vhd|
+Z19 !s107 E:/EE214_Experiments/Week3/2to4_Decoder/Decoder_2to4.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 12 decoder_2to4 0 22 X;3l<@^DTYi:f;<[JL:=F3
+!i122 2
+l15
+L13 18
+VmeU<^FzMKL6TIo?BF[H``3
+!s100 2Z`O@T60SS:mW:6mkK]kI3
+R6
+31
+R7
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Edut
+Z20 w1628674275
+R2
+R3
+!i122 1
+R0
+Z21 8E:/EE214_Experiments/Week3/2to4_Decoder/DUT.vhd
+Z22 FE:/EE214_Experiments/Week3/2to4_Decoder/DUT.vhd
+l0
+L7 1
+VT[8lc`?dzkG9fm>l0=FHK1
+!s100 S@=dRkRNVd_aEh@3LAi0f2
+R6
+31
+R7
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-93|-work|work|E:/EE214_Experiments/Week3/2to4_Decoder/DUT.vhd|
+Z24 !s107 E:/EE214_Experiments/Week3/2to4_Decoder/DUT.vhd|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 T[8lc`?dzkG9fm>l0=FHK1
+!i122 1
+l18
+L12 21
+Vj3O]7DOaaQ4l9UJ6`dTXK2
+!s100 MXTBNe0X^PTfOf:cJ:UG91
+R6
+31
+R7
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R11
+R12
+Efull_adder
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L140 1
+VbWCJ7MLQJM>G[?=SAd[X<0
+!s100 @UgbjPLf=lJagQT0732a03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 full_adder 0 22 bWCJ7MLQJM>G[?=SAd[X<0
+!i122 0
+l145
+L144 5
+V;JFF17B1o[R=C7dPN1?m>0
+!s100 B>3zVbOZm8<Yk@];0KI9X1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+!i122 0
+R1
+R0
+R4
+R5
+l0
+L3 1
+V^`cPQ[P^XeGBQnJ5d;gQ43
+!s100 [j?1z[O8oK^dfLg4EH7JV1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L128 1
+V`kWU5;7dKV1b[iYROLeM63
+!s100 O3AeBGfzKBQXj5FiW[_9z0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 `kWU5;7dKV1b[iYROLeM63
+!i122 0
+l133
+L132 5
+VfaeAFo9=PfdWWeoZ<jc4T3
+!s100 ^4RUaUXH^R0_6CIJJJ;h70
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L49 1
+V7fcMed?T;XLOf@iUiVH0J3
+!s100 nm@B]fH[YTmBzodc<J6Fd0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 7fcMed?T;XLOf@iUiVH0J3
+!i122 0
+l54
+L53 4
+ViEj6>@[_cdnPG57f`38gN0
+!s100 ng@eWOg`K@B>S=;0A4Aff0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L72 1
+VKRG[iBY9[kCd;o^gm31`73
+!s100 I:Dl7Y;AjdGFmO`6m<XAb2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 KRG[iBY9[kCd;o^gm31`73
+!i122 0
+l77
+L76 4
+VlD^?H=LJkIbY<E@HX9Y6Q2
+!s100 U?DoYM<zHg@]G3j7E9Qfa1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L94 1
+VFciJeeQ;2CR`72Waoi@@Q0
+!s100 Pc=E[;C_QfZAVgn5lklo]0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 FciJeeQ;2CR`72Waoi@@Q0
+!i122 0
+l99
+L98 4
+V6B=chP:2zS9>lLfS>l>eJ2
+!s100 j[U2i;HL7<@[@f5?b4iN50
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L83 1
+VL:hWQJZSSzNdF3gHZ_<VT0
+!s100 IChB]FQJ]54S_ejJ9lnCX0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 L:hWQJZSSzNdF3gHZ_<VT0
+!i122 0
+l88
+L87 4
+VIV1lz9KCNjzb6Lfmc=dm81
+!s100 [H0dA?YbeQ9_ZUCdlIW[o1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z25 w1628673968
+R3
+R2
+!i122 3
+R0
+Z26 8E:/EE214_Experiments/Week3/2to4_Decoder/Testbench.vhd
+Z27 FE:/EE214_Experiments/Week3/2to4_Decoder/Testbench.vhd
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R17
+Z28 !s90 -reportprogress|300|-93|-work|work|E:/EE214_Experiments/Week3/2to4_Decoder/Testbench.vhd|
+!s107 E:/EE214_Experiments/Week3/2to4_Decoder/Testbench.vhd|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 3
+l69
+L9 132
+VJb<38dJ?3YQPZzLGm=f=O3
+!s100 j0`Z>WC[3iZ<1ES_35_<G3
+R6
+31
+R7
+!i10b 1
+R17
+R28
+Z29 !s107 E:/EE214_Experiments/Week3/2to4_Decoder/Testbench.vhd|
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L117 1
+V?V:h=10a`gji@QE16hzcS2
+!s100 XKT;9S6Gnig]B2>NRXL6h1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 ?V:h=10a`gji@QE16hzcS2
+!i122 0
+l122
+L121 4
+VLl@aPImC`1RLimLBXLgOM3
+!s100 49mn?I07[=fJ_hIJA>3Xn3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L106 1
+VIel@?bBd5EA^TznddjTnE2
+!s100 m]WKb^MCTFA3R53d2fKM>3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 Iel@?bBd5EA^TznddjTnE2
+!i122 0
+l111
+L110 4
+VVoGl8V[_?6cJ2OTaI<[KR0
+!s100 mGjNSGI?=[<eMR=VC;;9j2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
